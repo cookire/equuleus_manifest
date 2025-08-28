@@ -1,5 +1,5 @@
 #!/bin/bash
-# crave run --no-patch -- "curl URL | bash"
+# crave run --no-patch -- "curl https://raw.githubusercontent.com/cookire/equuleus_manifest/refs/heads/main/crave.sh | bash"
 
 rm -rf .repo/local_manifests/
 rm -rf prebuilts/clang/host/linux-x86
