@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="cookire" fetch="https://github.com/cookire" />
+        <remote name="TheMuppets" fetch="https://github.com/TheMuppets/" />
+
+        
+        <!-- Trees -->
+
+        <!-- DT -->
+        <project path="device/xiaomi/equuleus" name="android_device_xiaomi_equuleus"
+            revision="udc" remote="cookire" />
+        <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common"
+            revision="lineage-22.2" remote="cookire" />
+
+        <!-- KERNEL -->
+        <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845"
+            revision="lineage-22.2" remote="cookire" />
+
+        <!-- VENDOR -->
+        <project path="vendor/xiaomi/equuleus" name="vendor_xiaomi_equuleus"
+            revision="main" remote="cookire" />
+        <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common"
+            revision="lineage-22.2" remote="TheMuppets" />
+
+        <!-- HARDWARE -->
+        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" />
+
+</manifest>
