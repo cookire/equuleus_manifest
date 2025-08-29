@@ -18,8 +18,8 @@
             revision="lineage-22.2" remote="cookire" />
 
         <!-- VENDOR -->
-        <project path="vendor/xiaomi/equuleus" name="vendor_xiaomi_equuleus"
-            revision="main" remote="cookire" />
+        <project path="vendor/xiaomi/equuleus" name="proprietary_vendor_xiaomi_equuleus"
+            revision="lineage-22.2" remote="TheMuppets" />
         <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common"
             revision="lineage-22.2" remote="TheMuppets" />
 
