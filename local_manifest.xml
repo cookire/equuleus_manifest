@@ -2,7 +2,6 @@
 <manifest>
 
         <remote name="cookire" fetch="https://github.com/cookire" />
-        <remote name="TheMuppets" fetch="https://github.com/TheMuppets/" />
 
         
         <!-- Trees -->
@@ -19,9 +18,9 @@
 
         <!-- VENDOR -->
         <project path="vendor/xiaomi/equuleus" name="proprietary_vendor_xiaomi_equuleus"
-            revision="lineage-22.2" remote="TheMuppets" />
+            revision="lineage-22.2" remote="cookire" />
         <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common"
-            revision="lineage-22.2" remote="TheMuppets" />
+            revision="lineage-22.2" remote="cookire" />
 
         <!-- HARDWARE -->
         <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" />
