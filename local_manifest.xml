@@ -9,7 +9,7 @@
 
         <!-- DT -->
         <project path="device/xiaomi/equuleus" name="android_device_xiaomi_equuleus"
-            revision="udc" remote="cookire" />
+            revision="lineage-22.2" remote="cookire" />
         <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common"
             revision="lineage-22.2" remote="cookire" />
 
