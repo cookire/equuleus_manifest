@@ -14,7 +14,7 @@
 
         <!-- KERNEL -->
         <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845"
-            revision="lineage-22.2" remote="cookire" />
+            revision="udc" remote="cookire" />
 
         <!-- VENDOR -->
         <project path="vendor/xiaomi/equuleus" name="proprietary_vendor_xiaomi_equuleus"
@@ -23,6 +23,6 @@
             revision="lineage-22.2" remote="cookire" />
 
         <!-- HARDWARE -->
-        <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" revision="15.0" />
+        <project path="hardware/xiaomi" name="AxionAOSP/android_hardware_xiaomi" revision="lineage-22.2" />
 
 </manifest>
