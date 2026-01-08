@@ -1,6 +1,6 @@
 #!/bin/bash
-
-#script by https://github.com/Joe7500/build-scripts/ thanks :)
+# crave run --no-patch -- "curl https://raw.githubusercontent.com/cookire/equuleus_manifest/refs/heads/main/axion.sh | bash"
+#original script by https://github.com/Joe7500/build-scripts/ thanks :)
 
 source /home/admin/.profile
 source /home/admin/.bashrc
